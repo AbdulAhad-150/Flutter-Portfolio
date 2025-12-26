@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Ahad | Flutter Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "an3OZgBwEVx9t5otJ",
+            });
+        })();
+    </script>
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <i class="fas fa-code logo-icon"></i>
+                Abdul<span>Ahad</span>
+            </a>
+
+            <div class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="https://github.com/AbdulAhad-150" target="_blank" class="nav-link">GitHub <i
+                            class="fas fa-external-link-alt"></i></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="flutter-badge">
+                        <i class="fab fa-flutter"></i>
+                        Flutter Developer
+                    </div>
+                    <h1>Abdul Ahad</h1>
+                    <h2>Building Beautiful Cross-Platform Apps</h2>
+                    <p>I'm a passionate Flutter developer specializing in creating beautiful, high-performance mobile
+                        and web applications. I love turning ideas into reality with clean code and pixel-perfect UIs.
+                    </p>
+
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn btn-flutter">
+                            <i class="fas fa-mobile-alt"></i> View My Apps
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fas fa-paper-plane"></i> Hire Me
+                        </a>
+                    </div>
+
+                    <div class="social-icons">
+                        <a href="https://github.com/AbdulAhad-150" target="_blank" class="social-icon" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/abdulahad-yaseen-750530267/" target="_blank"
+                            class="social-icon" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <!-- <a href="#" class="social-icon" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a> -->
+                        <a href="mailto:abdulahadyaseeen150@gmail.com" class="social-icon" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <img class="man-work" src="./image/image.png" alt="Abdul Ahad - Flutter Developer" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Abdul Ahad, a dedicated Flutter developer with expertise in building cross-platform
+                        applications for iOS, Android, and Web. I focus on creating responsive, user-friendly interfaces
+                        with smooth animations and excellent performance.</p>
+                    <p>My journey with Flutter began when I discovered its potential to build beautiful apps with a
+                        single codebase. Since then, I've been passionate about leveraging Flutter's capabilities to
+                        deliver exceptional user experiences.</p>
+                    <p>I'm always exploring new packages, improving my architecture patterns (BLoC, Provider, Riverpod),
+                        and staying updated with the latest Flutter trends to build scalable and maintainable
+                        applications.</p>
+                    <a href="https://github.com/AbdulAhad-150" target="_blank" class="btn btn-flutter">
+                        <i class="fab fa-github"></i> Explore My GitHub
+                    </a>
+                </div>
+
+                <div class="flutter-skills">
+                    <div class="skills-container">
+                        <div class="skill-card">
+                            <i class="fab fa-flutter"></i>
+                            <h3>Flutter Development</h3>
+                            <p>Building cross-platform apps with Dart and Flutter framework</p>
+                        </div>
+
+                        <div class="skill-card">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h3>UI/UX Design</h3>
+                            <p>Creating beautiful, responsive interfaces with Material & Cupertino widgets</p>
+                        </div>
+
+                        <div class="skill-card">
+                            <i class="fas fa-fire"></i>
+                            <h3>Firebase Integration</h3>
+                            <p>Authentication, Firestore, Cloud Functions, and Analytics</p>
+                        </div>
+
+                        <div class="skill-card">
+                            <i class="fas fa-server"></i>
+                            <h3>Backend Integration</h3>
+                            <p>REST APIs, GraphQL, State Management, and Local Storage</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flutter Showcase -->
+    <section class="flutter-showcase">
+        <div class="container">
+            <div class="showcase-container">
+                <div class="showcase-text">
+                    <h2>Why I Love Flutter</h2>
+                    <p>Flutter allows me to build natively compiled applications for mobile, web, and desktop from a
+                        single codebase. Its hot reload feature enables rapid development, while the rich widget library
+                        helps create beautiful, custom UIs.</p>
+                    <p>With Flutter, I can deliver consistent experiences across platforms while maintaining high
+                        performance. The growing ecosystem and supportive community make it an exciting framework to
+                        work with every day.</p>
+                    <a href="#projects" class="btn btn-flutter">
+                        <i class="fas fa-eye"></i> See My Flutter Projects
+                    </a>
+                </div>
+
+                <div class="showcase-image">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                        alt="Flutter Development">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">My Flutter Projects</h2>
+
+            <div class="projects-grid" id="projects-grid">
+                <!-- Flutter projects will be loaded here -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="flutter-logo">
+                            <i class="fab fa-flutter"></i>
+                        </div>
+                        <div
+                            style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; background: linear-gradient(135deg, #02569B, #13B9FD); color: white; font-size: 3rem;">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Loading Projects...</h3>
+                        <p class="project-description">Fetching my Flutter projects from GitHub. Please wait a moment.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">Dart</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/AbdulAhad-150" target="_blank" class="btn"
+                                style="padding: 10px 20px;">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Build Something Amazing</h2>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Based in Pakistan</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p id="email-text">abdulahadyaseeen150@gmail.com</p>
+                            <button id="copy-email-btn" class="btn-small">
+                                <i class="fas fa-copy"></i> Copy Email
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div>
+                            <h3>GitHub</h3>
+                            <p>github.com/AbdulAhad-150</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Freelance</h3>
+                            <p>Available for Flutter projects</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="project">Project Type</label>
+                            <select id="project" class="form-control">
+                                <option value="">Select project type</option>
+                                <option value="mobile">Mobile App</option>
+                                <option value="web">Web App</option>
+                                <option value="desktop">Desktop App</option>
+                                <option value="full">Full Stack Solution</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Project Details</label>
+                            <textarea id="message" class="form-control" placeholder="Tell me about your project"
+                                required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-flutter" style="width: 100%;" onclick="sendMail()">
+                            <i class="fas fa-paper-plane" ></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <div class="footer-logo">
+                        <i class="fas fa-code"></i>
+                        Abdul<span>Ahad</span>
+                    </div>
+                    <p>Flutter Developer & Cross-Platform App Specialist</p>
+                </div>
+
+                <div>
+                    <h3 style="margin-bottom: 20px; font-size: 1.3rem;">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 style="margin-bottom: 20px; font-size: 1.3rem;">Technologies</h3>
+                    <ul class="footer-links">
+                        <li>Flutter & Dart</li>
+                        <li>Firebase</li>
+                        <li>REST APIs</li>
+                        <li>State Management</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 style="margin-bottom: 20px; font-size: 1.3rem;">Connect</h3>
+                    <div class="social-icons">
+                        <a href="https://github.com/AbdulAhad-150" target="_blank" class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/abdulahad-yaseen-750530267/" target="_blank"
+                            class="social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <!-- <a href="#" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2024 Abdul Ahad - Flutter Developer. All rights reserved.</p>
+                <p style="margin-top: 10px;">Made with <i class="fas fa-heart" style="color: #ff4757;"></i> and Flutter
+                    inspiration</p>
+            </div>
+        </div>
+    </footer>
+    <script src="email.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
